@@ -38,12 +38,17 @@ PRs should be posted _before_ class begins on Tuesday, January 2, 2024.
 ### Interview Practice Questions
 
 1. What are three (3) syntax difference between HTML and JSX?
+    Three syntax differences between HTML and JSX include the use of className instead of class attribuute, self closing tags, and event listeners. The reason className is used in JSX is because class is a reserved word in JS. Self closings tags require a forward slash in JSX and are optionakl in HTML. And event listeners are written in camelCase in JSX but are all lowercase in HTML. 
 
 2. What is yarn? What file(s) are modified when you run the command yarn in your terminal?
+    Yarn is a package manager for JavaScript and is an alternative to NPM. The files that are modified/created when running yarn are node_modules, package.json, and yarn.lock.
 
 3. What is the difference between state values and props in React?
+    In React, props pass data from the parent to the child components and state manages the internal component data and any changes made to it. 
 
 4. STRETCH (optional): What is the difference between a div tag and a span tag?
+    A div tag takes up the full width available, starts on a new line, and is used for structuring content. A span tag only takes up the necessary width, does not start on a new line, and is used for applying styling or scripting to specific portions of text. 
+
 
 ### Looking Ahead: Terms for Next Unit
 
